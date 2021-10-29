@@ -12,6 +12,7 @@ import Count from './Hook/Count';
 import Memo from "./Hook/Memo";
 import StateTest  from './StateTest';
 import Focus from './Focus'
+import UseCallBack from './Hook/UseCallBack';
 
 import('./split').then((splitMod)=>{
   console.log(splitMod.add(1,2));
@@ -76,11 +77,13 @@ ReactDOM.render(
   // <Count />
   // <Memo />
 
-  // </>,
-  // <Context2></Context2>,
-  // <MyComponent />,
-  // <StateTest></StateTest>,
-  <Focus></Focus>,
+  // </>
+  // <Context2></Context2>
+  // <MyComponent />
+  // <StateTest></StateTest>
+  // <Focus></Focus>
+  <UseCallBack></UseCallBack>
+  ,
   document.getElementById('root')
 );
 
