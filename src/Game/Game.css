@@ -1,0 +1,28 @@
+div {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+}
+
+.desc-list {
+  margin-left: 20px;
+}
+
+.game-wrap {
+  border-left: 1px solid gray;
+  border-top: 1px solid gray;
+  width: 301px;
+  height: 301px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game-item {
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  width: 100px;
+  height: 100px;
+}
+
+

@@ -13,6 +13,7 @@ import Memo from "./Hook/Memo";
 import StateTest  from './StateTest';
 import Focus from './Focus'
 import UseCallBack from './Hook/UseCallBack';
+import Game from './Game/Game';
 
 import('./split').then((splitMod)=>{
   console.log(splitMod.add(1,2));
@@ -82,7 +83,8 @@ ReactDOM.render(
   // <MyComponent />
   // <StateTest></StateTest>
   // <Focus></Focus>
-  <UseCallBack></UseCallBack>
+  // <UseCallBack></UseCallBack>
+  <Game></Game>
   ,
   document.getElementById('root')
 );
