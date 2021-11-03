@@ -24,6 +24,10 @@ export default class Game extends React.Component {
     // 点击之后 增加一个step 和currentStep
     let preStep = this.state.currentStep;
     this.preValues = this.state.stepValues[preStep];
+    // 已经选中则返回
+    if(this.preValues[index]) {
+      return;
+    }
     this.target = this.preValues.slice();
     this.target[index] = preStep % 2 === 0 ? 'X' : 'O';
     //  放弃当前点击之后的step

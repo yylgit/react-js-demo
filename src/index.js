@@ -14,6 +14,8 @@ import StateTest  from './StateTest';
 import Focus from './Focus'
 import UseCallBack from './Hook/UseCallBack';
 import Game from './Game/Game';
+import GameHook from './Game/GameHook';
+import GameReducer from './Game/GameReducer';
 
 import('./split').then((splitMod)=>{
   console.log(splitMod.add(1,2));
@@ -84,7 +86,9 @@ ReactDOM.render(
   // <StateTest></StateTest>
   // <Focus></Focus>
   // <UseCallBack></UseCallBack>
-  <Game></Game>
+  // <Game></Game>
+  // <GameHook></GameHook>
+  <GameReducer></GameReducer>
   ,
   document.getElementById('root')
 );
